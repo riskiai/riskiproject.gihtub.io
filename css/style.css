@@ -593,7 +593,9 @@ form .send-btn:hover{
 }
 
 @media (max-width: 540px){
-    .hero,
+    .hero {
+        margin-bottom: 20px !important;
+    }
     .main-content h4,
     .main-content h1,
     .main-content p
@@ -601,16 +603,18 @@ form .send-btn:hover{
         width: 100%;
         flex-direction: column;
         align-items: center;
+        margin-bottom: 25px !important;
     }
 
     .lottie-container{
-        width: 280px;
-        height: 280px;
+        width: 300px;
+        height: 3000px;
         margin-bottom: 40px !important;
         margin: auto;
         /* display: none; */
     }
 }
+
 
 @media (max-width: 470px) {
     :root {
