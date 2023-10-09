@@ -102,12 +102,18 @@ section{
 .hero{
     height: 100vh;
     width: 100%;
-    background: url(../image/bg1.png);
+    /* background: url(../image/bg1.png); */
     background-position: top right;
     background-size: cover;
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.lottie-container {
+    margin-left: 100px;
+    width: 600px;
+    height: 600px;
 }
 
 .main-content h4{
@@ -573,14 +579,65 @@ form .send-btn:hover{
     .main-content p {
         width: 100%;
     }
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+    .lottie-container{
+        width: 230px;
+        height: 230px;
+        margin-bottom: 40px !important;
+        margin: auto;
+        /* display: none; */
+    }
 }
 
-@media (max-width: 470px){
-    :root{
-        --h1-font: 3rem;
-        --h2-font: 2rem;
+@media (max-width: 470px) {
+    :root {
+        --h1-font: 20px;
+        --h2-font: 20px;
+        --p-font: 15px; /* Sesuaikan ukuran font paragraf untuk layar kecil */
     }
-    .about-img img{
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .hero,
+    .main-content h1,
+    .main-content p { /* Sertakan semua elemen teks yang ingin Anda sesuaikan ukurannya */
+        font-size: var(--p-font); /* Sesuaikan ukuran font paragraf sesuai kebutuhan Anda */
+        margin-bottom: 30px;
+    }
+
+    .main-content h4 {
+        font-size: var(--h1-font); /* Sesuaikan ukuran font h4 sesuai kebutuhan Anda */
+        margin-bottom: 30px !important; /* Ubah sesuai kebutuhan Anda */
+    }
+
+    .main-content h1 {
+        font-size: var(--h2-font); /* Sesuaikan ukuran font h1 sesuai kebutuhan Anda */
+        font-weight: 900;
+        margin: 20px 0;
+        line-height: 1.2;
+    }
+
+    .main-content {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .lottie-container{
+        width: 230px;
+        height: 230px;
+        margin-bottom: 40px !important;
+        margin: auto;
+        /* display: none; */
+    }
+
+    .about-img img {
         text-align: center;
         width: 100%;
         height: 300px;
