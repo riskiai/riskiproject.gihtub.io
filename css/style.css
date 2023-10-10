@@ -62,9 +62,11 @@ span{
     transition: all .50s ease;
 }
 
+.navlist a.active,
 .navlist a:hover{
     color: var(--main-color);
-    text-shadow: 3px 3px 20px var(--main-color), -2px 1px 30px var(--text-color);
+    font-weight: bold;
+    /* text-shadow: 5px 5px 20px var(--main-color), -2px 1px 30px var(--text-color); */
 }
 
 #menu-icon{
