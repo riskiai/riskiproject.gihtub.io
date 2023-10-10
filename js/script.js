@@ -1,4 +1,5 @@
 
+    /* Animasi Scroll Smoth dan animasi interaktive */
     const header = document.querySelector("header");
 
     window.addEventListener ("scroll", function () {
