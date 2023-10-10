@@ -99,6 +99,10 @@ section{
     padding: 110px 16% 90px;
 }
 
+.fullstack {
+    color: white;
+}
+
 .hero{
     height: 100vh;
     width: 100%;
