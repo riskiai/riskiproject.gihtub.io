@@ -19,7 +19,7 @@
         navlist.classList.remove('active');
     }
 
-    /* Scroll Header Button Animasi */
+    /* Scroll Header animasi ke halaman section lain*/
     let sections = document.querySelectorAll('section')
     let navLinks = document.querySelectorAll('header ul li a')
 
@@ -40,5 +40,6 @@
     });
     }
 
+    
 
 
