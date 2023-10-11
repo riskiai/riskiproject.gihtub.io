@@ -56,16 +56,16 @@ span{
 
 .navlist a{
     font-size: var(--p-font);
-    font-weight: 500;
+    font-weight: bold;
+    /* font-weight: 500; */
     color: var(--other-color);
     margin-left: 40px;
-    transition: all .50s ease;
+    transition: all .20s ease;
 }
 
 .navlist a.active,
 .navlist a:hover{
     color: var(--main-color);
-    font-weight: bold;
     border-bottom:  3px solid var(--main-color);
     /* text-shadow: 5px 5px 20px var(--main-color), -2px 1px 30px var(--text-color); */
 }
@@ -445,6 +445,9 @@ form .send-btn:hover{
     box-shadow:  0 0 20px var(--main-color);
     cursor: pointer;
 }
+
+
+
 
 /* Halaman Footer */
 .footer{
