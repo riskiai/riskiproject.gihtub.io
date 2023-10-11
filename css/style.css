@@ -66,6 +66,7 @@ span{
 .navlist a:hover{
     color: var(--main-color);
     font-weight: bold;
+    border-bottom:  3px solid var(--main-color);
     /* text-shadow: 5px 5px 20px var(--main-color), -2px 1px 30px var(--text-color); */
 }
 
@@ -201,7 +202,6 @@ section{
 
 /* about dan header*/
 /* Nyambung Ke JS */
-
 header.sticky {
     background: var(--bg-color);
     box-shadow: 0 .1rem 1rem rgba(0, 0, 0, .2);
@@ -253,7 +253,6 @@ header.sticky {
 }
 
 /* Halaman Services */
-
 .center-text{
     text-align: center;
 }
@@ -325,6 +324,7 @@ header.sticky {
     border: 1px solid var(--main-color);
     transform: translateY(-5px) scale(1.03);
 }
+
 
 /* Halaman Portfolio */
 .portfolio {

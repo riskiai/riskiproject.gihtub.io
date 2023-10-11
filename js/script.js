@@ -19,7 +19,7 @@
         navlist.classList.remove('active');
     }
 
-    /* Scroll Animasi */
+    /* Scroll Header Button Animasi */
     let sections = document.querySelectorAll('section')
     let navLinks = document.querySelectorAll('header ul li a')
 
