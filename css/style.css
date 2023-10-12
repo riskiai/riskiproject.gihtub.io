@@ -588,6 +588,10 @@ section{
         min-height: 62vh;
     }
 
+    .contact h2 {
+        margin-bottom: 50px;
+    }
+
     .about-img img{
         width: 70%;
         height: 70%;
@@ -677,6 +681,24 @@ section{
         border-radius: 50%;
         object-fit: cover;
         margin: 0 auto;
+    }
+
+    
+
+    .info-item i {
+        font-size: 24px;
+        color: var(--main-color); /* Warna ikon */
+        margin-right: 15px;
+        margin-bottom: 50px !important;
+    }
+    
+    .info-item i:hover {
+        font-weight: bold;
+        outline-color: white;
+        /* font-size: 25px; */
+        color: var(--main-color);
+         /* Warna ikon */
+        /* margin-right: 10px; */
     }
 
 }
