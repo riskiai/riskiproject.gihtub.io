@@ -583,10 +583,6 @@ section{
     .main-content p {
         width: 100%;
     }
-    .hero {
-        flex-direction: column;
-        align-items: center;
-    }
     :root {
         --h1-font: 20px;
         --h2-font: 20px;
@@ -596,8 +592,13 @@ section{
     .hero {
         flex-direction: column;
         align-items: center;
+        min-height: 20px;
+        margin-bottom: 80px !important;
     }
 
+    .main-content{
+        margin-bottom: 20px !important;
+    }
 
     .hero,
     .main-content h1,
@@ -624,8 +625,8 @@ section{
     }
 
     .lottie-container{
-        width: 230px;
-        height: 230px;
+        width: 270px;
+        height: 270px;
         margin-bottom: 40px !important;
         margin: auto;
         /* display: none; */
