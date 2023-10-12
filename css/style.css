@@ -580,6 +580,25 @@ section{
 }
 
 @media (max-width: 680px){
+    .hero{
+        min-height: 62vh;
+    }
+
+    .contact{
+        min-height: 62vh;
+    }
+
+    .about-img img{
+        width: 70%;
+        height: 70%;
+        max-width: 450px;
+        border-radius: 50%;
+        object-fit: cover;
+        border: 7px solid var(--main-color);
+        box-shadow:  0 0 20px var(--main-color);
+    
+    }
+
     .main-content p {
         width: 100%;
     }
