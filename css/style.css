@@ -281,6 +281,9 @@ section{
 
 .box img{
     margin-bottom: 20px;
+    margin-right: 15px;
+    height: 55px;
+    width: 55px;
 }
 
 .box h3{
