@@ -251,7 +251,7 @@ section{
     margin-left: 8px;
 }
 
-/* Halaman Services */
+/* Halaman Skills */
 .center-text{
     text-align: center;
 }
@@ -328,10 +328,9 @@ section{
 }
 
 
-/* Halaman Portfolio */
+/* Halaman myProjects */
 .portfolio {
     background: var(--second-bg-color);
-
 }
 
 .Portfolio-content{
