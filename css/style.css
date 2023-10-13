@@ -576,6 +576,14 @@ section{
     .navlist.active{
         right: 0;
     }
+
+    .lottie-container{
+        width: 900px;
+        height: 900px;
+        margin: auto;
+        /* display: none; */
+    }
+
 }
 
 @media (min-width: 360px ) and (max-width: 680px){
@@ -586,6 +594,10 @@ section{
         --h1-font: 20px;
         --h2-font: 20px;
         --p-font: 15px; /* Sesuaikan ukuran font paragraf untuk layar kecil */
+    }
+
+    .top-btn1{
+        display: none;
     }
 
     .hero {
