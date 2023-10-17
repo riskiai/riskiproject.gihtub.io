@@ -611,18 +611,18 @@ section{
     }
     
     .about-img {
-        max-width:100%;
+        max-width: 150% !important;
         margin: auto;
+        padding: 30px 30px;
     }
 
     .about-img img {
-        max-width:100%;
-        width: 200px !important;
-        height: 200px !important;
+        max-width: 150% !important;
+        width: 220px !important;
+        height: 220px !important;
         object-fit: cover;
         
     }
-
 
     .about-text {
         margin-right: 0;
@@ -743,6 +743,10 @@ section{
         width: 100%;
     }
 
+    .hero {
+        margin-bottom: 30px !important;
+    }
+
     .about {
         z-index: -1;
     }
@@ -757,12 +761,13 @@ section{
      .about-img {
         max-width:200%;
         margin: auto;
+        padding: 30px 30px;
     }
 
      .about-img img {
-        max-width: 200%;
-        width: 150px !important;
-        height: 150px !important;
+        max-width: 150% !important;
+        width: 180px !important;
+        height: 180px !important;
     }
 
     .about-text {
