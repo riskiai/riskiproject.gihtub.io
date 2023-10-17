@@ -592,10 +592,12 @@ section{
 
 }
 
+
 @media (min-width: 440px ) and (max-width: 680px){
     .main-content p {
         width: 100%;
     }
+
     :root {
         --h1-font: 20px;
         --h2-font: 20px;
@@ -603,16 +605,24 @@ section{
     }
 
     /* About */
-    .about-img img {
-        width: 150px;
-        height: 150px;
-        max-width: 100%;
-        border-radius: 50%;
-        object-fit: cover;
-        border: 7px solid var(--main-color);
-        box-shadow: 0 0 20px var(--main-color);
-        margin: 0 auto;
+    /* About */
+    .about {
+        background-position: 100%;
     }
+    
+    .about-img {
+        max-width:100%;
+        margin: auto;
+    }
+
+    .about-img img {
+        max-width:100%;
+        width: 200px !important;
+        height: 200px !important;
+        object-fit: cover;
+        
+    }
+
 
     .about-text {
         margin-right: 0;
@@ -732,6 +742,11 @@ section{
     .main-content p {
         width: 100%;
     }
+
+    .about {
+        z-index: -1;
+    }
+
     :root {
         --h1-font: 20px;
         --h2-font: 20px;
@@ -739,17 +754,16 @@ section{
     }
 
      /* About */
-    .about-img img {
-        width: 250px;
-        max-width: 100%; /* Tetapkan maksimum lebar agar mengikuti lebar parent */
-        border-radius: 50%;
-        object-fit: cover;
-        border: 7px solid var(--main-color);
-        box-shadow: 0 0 20px var(--main-color);
-        margin: 0 auto;
+     .about-img {
+        max-width:200%;
+        margin: auto;
     }
 
-
+     .about-img img {
+        max-width: 200%;
+        width: 150px !important;
+        height: 150px !important;
+    }
 
     .about-text {
         margin-right: 0;
