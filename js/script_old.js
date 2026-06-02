@@ -63,7 +63,7 @@
             }
 
             const distance = firstClone.offsetLeft;
-            const duration = Math.max(14, Math.round(distance / 70));
+            const duration = Math.max(24, Math.round(distance / 45));
 
             projectTrack.style.setProperty('--project-distance', `${distance}px`);
             projectTrack.style.setProperty('--project-duration', `${duration}s`);
